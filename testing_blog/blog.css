@@ -9,13 +9,14 @@ h1 {
 p {
 	color: black;
 	background-color: lightyellow;
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 	background-image: url("https://wallpaperaccess.com/full/1659875.jpg"); 
+	opacity: 80%;
 
 }
 
-.beautiful_sunrise {
+.picture{
 	display: block;
 	margin-left: auto;
 	margin-right:auto;
