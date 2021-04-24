@@ -3,7 +3,12 @@ h1 {
 	text-align: center;
 	border: 2px solid;
 	background-color: lightyellow;
+}
 
+h2 {
+	border: 1px solid;
+	border: auto;
+	
 }
 
 p {
