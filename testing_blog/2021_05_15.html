@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> 15 May 2021</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style>
+	@import url(blog.css);
+
+	.flex_container {
+		display: flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+	}
+	.photo {
+		position: relative;
+		margin-bottom: 2em;
+
+	}
+	.photo img {
+		width: 250px;
+
+	}
+
+	.photo span {
+		position: absolute;
+		bottom: 0;
+		left:0;
+		width:100%;
+
+		background-color: beige;
+		text-align: center;
+		opacity: 80%;
+		font-size: 1.2em;
+	}
+	
+</style>
+</head>
+
+<body>
+	<h1> 15 May 2021</h1>
+	<section>
+	<h2> Trying Flexbox</h2>
+	<div>
+		<p> Still doesn't really know how to display my pictures like a gallery. I guess Flexbox is the way to go. Gonna try if I can make it work</p>
+	</div>
+
+	<div class="flex_container">
+		<div class="photo">
+			<img src="image/2021_05_15_1.jpg"> <span> 10 May 2021 lunch</span>
+		</div>
+
+		<div class="photo"> 
+			<img src="image/2021_05_15_2.jpg"> <span> 10 May 2021 dinner</span>
+		</div>
+
+		<div class="photo"> 
+			<img src="image/2021_05_15_3.jpg"> <span> 11 May 2021 lunch</span>
+		</div>
+
+		<div class="photo"> 
+			<img src="image/2021_05_15_4.jpg"> <span> 12 May 2021 lunch</span>
+		</div>
+
+		<div class="photo"> 
+			<img src="image/2021_05_15_5.jpg"> <span> 13 May 2021 dinner</span>
+		</div>
+
+	</div> <!--end of .flex_container -->
+	
+	<div>
+		<p>Seems like Flexbox is working fine on desktop. <i> Note: good practice to create a div to contain the img and the spans (labels)</i></p>
+	</div>	
+	</section>
+
+</body>
+</html>
