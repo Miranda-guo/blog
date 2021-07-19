@@ -1,3 +1,4 @@
+/*style for main paragraphs*/
 body {
 	margin: 5%;
 }
@@ -22,6 +23,8 @@ p {
 	/* clear: left */
 
 }
+/*end of style for main paragraphs*/
+
 
 .picture{
 	display: block;
@@ -33,3 +36,31 @@ p {
 .icon {
 	width: 1em;
 }
+
+/*style for photos*/
+.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+
+		.photo {
+			position: relative;
+		}
+
+		.photo img {
+			width: 500px;
+		}
+
+		.photo span {
+			position: absolute;
+			bottom: 0;
+			left:0;
+			width: 100%;
+
+			background-color: mistyrose;
+			text-align:center;
+			font-size: 1.2em;
+		}
+
+/*end of style for photos*/
